@@ -5,3 +5,5 @@ en base a esto utilizar los objetos de determinadas diminsiones como un control,
 de YouTube que posteriormente agregare, este funciona como un ejecutable .exe creado en C# desde el equipo apartir de los datos enviados desde Javascript el cual realiza
 todo el proceso de visión artificial y se utiliza jquery como ente de gestion y envio de datos a C# para realizar los procesos deseados todo esto para poder 
 ejecutar los comandos necesarios.
+
+Creditos: Ringa Tech. Canal de YouTue.
