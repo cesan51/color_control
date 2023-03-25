@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <br><br>
+  <h1 class="text-center">Color Control. Vision artificial</h1><br>
+
+  <style type="text/css">
+    #canvas {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+
+    #divCarrito{
+      display: inline-block;
+      vertical-align: top;
+      padding: 200px;
+    }
+
+    #carrito{
+      transform: rotate(270deg);
+    }
+
+
+</style>
+</head>
+
+<body>
+
+  
+<video id="video" playsinline autoplay style="display:none;"></video>
+<canvas id="canvas" width="475" height="475"></canvas>
+
+<div id="divCarrito">
+  <img id="carrito" src="carrito-chico.png"/>
+</div>
+
+<div style="display: inline-block;" id="info"></div>
+
+
+<script type="text/javaScript" src="webcam.js"></script>
+<script type="text/javaScript" src="obj.js"></script>
+
+
+<!--Simplifica librerias de http-->
+<script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+
+<div id="camara">
+  <script type="text/javaScript">
+    window.onload = function(){
+    mostrarCamara();
+    } 
+  </script>
+</div>
+
+
+</body>
+<div class="bg-dark text-secondary mt-5 px-4 py-2 text-center">
+  <div class="py-5">
+    <h1 class="display-5 fw-bold text-white">cesan51</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="fs-5 mb-4">GitHub </p>
+    </div>
+  </div>
+</div>
+
+</html>
